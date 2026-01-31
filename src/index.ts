@@ -15,7 +15,7 @@ export default {
 			(async () => {
 				const stream = await openai.chat.completions.create({
 					model: "gpt-4o-mini",
-					messages: [{ role: "user", content: "Tell me a story" }],
+					messages: [{ role: "user", content: "Kể cho tôi câu chuyện hài ngắn 10 dòng" }],
 					stream: true,
 				});
 
