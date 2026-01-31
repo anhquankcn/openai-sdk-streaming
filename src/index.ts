@@ -1,4 +1,4 @@
-import OpenAI from openai;
+import OpenAI from "openai";
 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
